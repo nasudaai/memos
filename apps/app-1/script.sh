@@ -3,5 +3,5 @@
 #echo "test"
 
 memo=$1
-echo "$memo" >> memo.txt
-cat memo.txt
+echo "$memo" >> notes.txt
+cat notes.txt
