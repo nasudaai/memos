@@ -1,7 +1,7 @@
 #!/bin/bash
 
+#echo "test"
+
 memo=$1
-
-echo "test"
-
-echo "$memo"
+echo "$memo" >> memo.txt
+cat memo.txt
