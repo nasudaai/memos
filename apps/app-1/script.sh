@@ -3,5 +3,7 @@
 #echo "test"
 
 memo=$1
-echo "$memo" >> notes.txt
+created_at="$(date)"
+echo $created_at
+echo "$memo $created_at" >> notes.txt
 cat notes.txt
