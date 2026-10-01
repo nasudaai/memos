@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "test"
+#echo "test"
 
 
 done="false"
 
 [ "$1" = "done" ] && done="true"
 
-echo "$done"
+echo "$done" >> state.txt
