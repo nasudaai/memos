@@ -1,9 +1,10 @@
 #!/bin/bash
 
-#echo "test"
-
+state=0
 memo=$1
-created_at="$(date)"
-echo $created_at
-echo "$memo $created_at" >> notes.txt
-cat notes.txt
+created_at="$(date '+%Y-%m-%d')"
+
+#echo $created_at
+
+echo "$state $memo $created_at" >> out/notes.txt
+cat out/notes.txt
